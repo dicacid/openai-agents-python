@@ -149,6 +149,13 @@ The Agents SDK automatically traces your agent runs, making it easy to track and
 
 ## Development (only needed if you need to edit the SDK/examples)
 
+Before installing dependencies, set up and activate a Python virtual environment. Windows users should use WSL and run the same commands there.
+
+```bash
+python -m venv env
+source env/bin/activate
+```
+
 0. Ensure you have [`uv`](https://docs.astral.sh/uv/) installed.
 
 ```bash
